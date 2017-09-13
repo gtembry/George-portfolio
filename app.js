@@ -1,4 +1,4 @@
-'USE STRICT';
+'use strict';
 
 var projects = [];
 function MyProject(name, date, description) {
