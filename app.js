@@ -9,4 +9,4 @@ this.description = description;
     projects.push(myproject);
 
 }
-new MyProjects = ("Salmon cookies", "May2017", "designed app for mock business");
+new MyProjects = ("Salmon cookies", "May2017", "designed program for mock business");
