@@ -1,0 +1,7 @@
+section.col-4 {
+  border: 2px solid black;
+  min-height: 200px;
+}
+section.col-4 img {
+  max-height: 400px;
+}

@@ -2,8 +2,24 @@
 <html>
   <head>
     <title>George's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js" charset="utf-8"></script>
+    <script src="    https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js
+" charset="utf-8"></script>
+    <script id="projectTemplate" type="text/x-handlebars-template">
+      <section class="col-4">
+        <a href="{{ deployedLink }}">
+          <img src="{{ coverImg }}" alt="" />
+          <span class="project-title">{{ title }}</span> | <span class="date">{{ date }}</span>
+          <div class="description">
+            {{{ description }}}
+          </div>
+        </a>
+      </section>
+    </script>
   </head>
   <body>
     <header>
@@ -12,21 +28,17 @@
       <nav>
           <ul>
               <li><a href="index.html">Home</a></li>
-                <li><a href="Aboutme.html">About Me</a></li>
-                  <li class="twitter"><a>Twitter</a></li>
+              <li><a href="Aboutme.html">About Me</a></li>
+              <li class="twitter"><a>Twitter</a></li>
           </ul>
       </nav>
     </header>
 
     <main>
       <h2>My Projects:</h2>
-      <img src="http://placehold.it/300x300">
-      <img src="http://placehold.it/300x300">
-      <img src="http://placehold.it/300x300">
     </main>
-<script src="    scrhttps://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.amd.js
-" charset="utf-8"></script>
-    <script src="app.js"></script>
+    <script src="data/projectData.js"></script>
+    <script src="scripts/projectView.js"></script>
   </body>
 
 </html>
