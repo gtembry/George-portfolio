@@ -1,0 +1,32 @@
+'use strict';
+
+var rawData = [
+  {
+    "deployedLink": "https://gtembry.github.io/bus-mall",
+    "coverImg": "img/busmall.png",
+    "title": "Bus Mall!!",
+    "description": "<p>The best project ever made for any thing ever.</p>",
+    "date": "May 2017"
+  },
+  {
+    "deployedLink": "https://github.com/gtembry/Sweat-It-Out",
+    "coverImg": "img/sweat.png",
+    "title": "Sweat It Out!",
+    "description": "<p>Something about exercise I imagine.</p>",
+    "date": 'May 2017'
+  },
+  {
+    "deployedLink": "https://github.com/gtembry/salmon-cookies",
+    "coverImg": "http://placekitten.com/201/301",
+    "title": "Salmon Cookies",
+    "description": "<p>Designed program for mock business</p>",
+    "date": "May 2017"
+  },
+  {
+    "deployedLink": "https://google.com",
+    "coverImg": "img/google.png",
+    "title": "Google",
+    "description": "<p>It's Google, stupid!</p>",
+    "date": "Some time in the 90s"
+  },
+];
