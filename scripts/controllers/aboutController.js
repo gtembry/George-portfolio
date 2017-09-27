@@ -9,6 +9,6 @@ let app = app || {};
     $('main').children().hide();
     $('#about').show();
   }
-
+  app.repoView(app.articleView.initIndexPage)
   module.aboutController = aboutController;
 })(app);
