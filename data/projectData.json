@@ -13,7 +13,7 @@ var rawData = [
     "coverImg": "img/sweat.png",
     "title": "Sweat It Out!",
     "description": "<p>Something about exercise I imagine.</p>",
-    "date": 'May 2017'
+    "date": "May 2017"
   },
   {
     "deployedLink": "https://github.com/gtembry/salmon-cookies",

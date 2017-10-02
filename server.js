@@ -5,7 +5,7 @@ const PG = require('pg');
 const PARSER = require('body-parser');
 
 const APP = EXPRESS();
-const CON_STRING = process.env.DATABASE_URL || 'postgres://localhost:5432//pokedex';
+const conString = `${process.env.DATABASE_URL}`;
 const PORT = process.env.PORT || 3000;
 const CLIENT = new PG.Client(CON_STRING);
 
